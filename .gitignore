@@ -1,0 +1,19 @@
+# Secrets / credentials - NEVER commit
+.env
+*.env
+google-ads.yaml
+credentials.json
+token.json
+service_account*.json
+*-sa-key.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Demo / runtime artifacts
+staging_sheet.csv
+change_log.csv
